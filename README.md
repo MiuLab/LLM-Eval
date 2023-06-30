@@ -6,7 +6,11 @@ This repo contains the code for the paper "LLM-EVAL: Unified Multi-Dimensional A
 We propose LLM-EVAL, a unified multi-dimensional automatic evaluation method for open-domain conversations with large language models (LLMs). Existing evaluation methods often rely on human annotations, ground-truth responses, or multiple LLM prompts, which can be expensive and time-consuming. To address these issues, we design a single prompt-based evaluation method that leverages a unified evaluation schema to cover multiple dimensions of conversation quality in a single model call. We extensively evaluate the performance of LLM-EVAL on various benchmark datasets, demonstrating its effectiveness, efficiency, and adaptability compared to state-of-the-art evaluation methods. Our analysis also highlights the importance of choosing suitable LLMs and decoding strategies for accurate evaluation results. LLM-EVAL offers a versatile and robust solution for evaluating open-domain conversation systems, streamlining the evaluation process and providing consistent performance across diverse scenarios.
 
 ## Usage
-See llm_eval.py
+```bash
+pip install langchain pydantic
+python llm_eval.py
+```
+
 
 ## Citation
 If you use LLM-EVAL in your work, please cite:
